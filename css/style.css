@@ -20,27 +20,14 @@ ul {
 /* primer navbar */
 .navTop {
     background-color: #b90e0e;
-    /* display: grid;
     grid-template-columns: 12;
     grid-template-rows: auto; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding: .3em 1em; */
     padding-top: .3em;
     padding-bottom: .3em;
 }
-
-/* .contact {
-    grid-column: span2;
-    grid-row: 1;
-}
-
-.rrss {
-    grid-column-start: 10;
-    grid-column-end: 12;
-    grid-row: 1;
-} */
 
 .navTop button, .navBottom button {
     background: #db0000;
@@ -48,15 +35,11 @@ ul {
     border-radius: 20px;
     border: .1em #b80e0f;
     box-shadow: 0 1px 3px -2px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24);
-    /* grid-column-start: 8;
-    grid-column-end: 9;
-    grid-row: 1; */
     font-weight: bold;
     color: #fefffa;
 }
 
 .navTop button {
-    border: .1em solid yellow;
     margin-left: 70%;
 }
 
